@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "downlevelIteration": true,
+        "resolveJsonModule": true,
+        "module": "CommonJS",
+        "strict": true,
+        "declaration": true,
+        "lib": ["es5", "es6", "dom"],
+        "target": "es6",
+        "types": ["reflect-metadata"],
+        "skipLibCheck": true
+    },
+    "exclude": ["./node_modules/*", "./dist", "**/*.test.ts"]
+}
