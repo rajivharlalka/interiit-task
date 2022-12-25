@@ -18,9 +18,11 @@ yarn
 ```
 
 - Add .env
+
 ```sh
 cp .env.template .env
 ```
+
 - Add DB_URL to .env
 
 - Run Meiliserch (using docker:why, it's better :) )
